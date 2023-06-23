@@ -1,2 +1,2 @@
-# homework-5
-bg photo robot,5ci ders
+# homework5
+5ci ders tapsiriq
