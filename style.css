@@ -1,52 +1,58 @@
-body{
-    background-image:url(robotbg.jpg);
-    background-repeat: no-repeat;
-    margin: 0;
+header {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    margin-left: 700px;
-    margin-top: 20px;
-    
+header .search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 2px solid rgb(199, 199, 199);
+  padding: 0px 100px 0px 20px;
+  color: rgb(177, 177, 177);
+  font-size: 20px;
+  height: 45px;
 }
-.text{
-    color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 22px;
-    line-height: 5px;
+header .search .search_icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
 }
-header{
-    background-color: white;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+header .menu_icon {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
 }
-.search{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border:2px solid rgb(199, 199, 199);
-    padding: 0px 100px 0px 20px;
-    color: rgb(177, 177, 177);
-    font-size: 20px;
-    height: 45px;
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 700px;
+  margin-top: 20px;
 }
-.icon{
-    width: 20px;
-    height: 20px;
-    padding-right: 10px;
+.content .line {
+  height: 135px;
+  width: 20px;
+  background-color: #6a9393;
 }
-.line{
-    height: 135px;
-    width: 20px ;
-    background-color: #6a9393;
+.content .text {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 22px;
+  line-height: 5px;
 }
-h1{
-    font-size: 80px;
+.content .text h1 {
+  font-size: 80px;
 }
+
+body {
+  background-image: url(robotbg.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
